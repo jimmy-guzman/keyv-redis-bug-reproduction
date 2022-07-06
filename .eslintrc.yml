@@ -1,0 +1,8 @@
+extends: ['jimmy-guzman', 'jimmy-guzman/typescript']
+parserOptions:
+  project: ['./tsconfig.json']
+rules:
+  sort-keys: 'off'
+  '@typescript-eslint/naming-convention': 'off'
+  '@typescript-eslint/member-ordering': 'off'
+  '@typescript-eslint/require-await': 'off'

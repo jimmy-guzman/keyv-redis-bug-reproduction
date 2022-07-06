@@ -1,0 +1,7 @@
+{
+  "watch": ["src"],
+  "ignore": ["**/*.spec.ts", "dist"],
+  "ext": "ts,json",
+  "exec": "tsup-node --silent --sourcemap && node ./dist/server.js",
+  "legacyWatch": true
+}
